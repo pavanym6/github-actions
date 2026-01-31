@@ -14,6 +14,44 @@ git add <files>
 git add *
 git add .
 ```
+## Commit and History
+```bash
+git commit -m "initial commit"
+git log
+```
+## Navigating Commits and Resetting
+```bash
+git checkout <id>
+git checkout master
+git reset <id>
+git reset --hard <id>
+```
+## Branching Operations
+```bash
+git branch
+git branch dev
+git checkout dev
+git checkout -b test
+git branch -D checkout
+```
+## Merging Branches
+```bash
+git checkout master
+git merge dev
+```
+## Remote Repository Configuration
+```bash
+git remote add origin [https://github.com/pavanym6/github-actions.git](https://github.com/pavanym6/github-actions.git)
+git remote set-url origin [https://pavanym6@github.com/pavanym6/github-actions.git](https://pavanym6@github.com/pavanym6/github-actions.git)
+```
+## Pushing to GitHub
+```bash
+git push origin master
+git push --set-upstream origin master
+git push
+git push origin dev
+```
+## all commands
 git init
 git add <files>
 git status
