@@ -1,6 +1,19 @@
-# Git commands
-<git config --global user.name "pavanym6">
+
+# Git Commands Cheat Sheet
+
+## 🔧 Configure Git (One-Time Setup)
+```bash
+git config --global user.name "pavanym6"
 git config --global user.email "pavanym6@gmail.com"
+```
+## Initialize and Stage Files
+```bash
+git init
+git status
+git add <files>
+git add *
+git add .
+```
 git init
 git add <files>
 git status
